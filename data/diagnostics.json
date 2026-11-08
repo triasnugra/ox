@@ -5399,6 +5399,56 @@
         "errors": []
       },
       "fatal": null
+    },
+    {
+      "runAtUtc": "2026-11-08T06:30:46.633Z",
+      "engines": {
+        "crypto": {
+          "status": "OK",
+          "cards": 31,
+          "parsed": 31,
+          "added": 20,
+          "errors": [],
+          "warnings": [],
+          "emptyKind": null,
+          "httpStatus": 200,
+          "durationMs": 9080,
+          "forward": null,
+          "trackingStarted": false
+        },
+        "tn": {
+          "status": "OK",
+          "cards": 558,
+          "parsed": 558,
+          "added": 29,
+          "errors": [],
+          "warnings": [],
+          "emptyKind": null,
+          "httpStatus": 200,
+          "durationMs": 466,
+          "forward": {
+            "ready": false,
+            "locked": true,
+            "counts": {
+              "tercatat_sesuai_protokol": 216,
+              "selesai": 178,
+              "menunggu": 38,
+              "terisi": 119,
+              "minggu_berbeda": 4,
+              "diabaikan_mesin_lain": 0,
+              "dilewati_dedupe": 327
+            },
+            "dibuat": "2026-11-08T05:23:35.896Z"
+          },
+          "trackingStarted": false
+        }
+      },
+      "evaluation": {
+        "checked": 319,
+        "changed": 22,
+        "errors": []
+      },
+      "fatal": null
     }
   ]
 }
